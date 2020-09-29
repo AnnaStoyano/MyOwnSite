@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>My own website</title>
+</head>
+
+<body>
+    <script defer src="./js/main.js"></script>
+    <div class="container">
+        <div class="top-wrapper">
+            <header class="header">
+                <div class="logo"></div>
+                <div class="intro">
+                    <h2>Stoyanova Anna</h2>
+                    <div class="location">
+                        <img src="./svg/map-marker-alt-solid.svg" alt="location">
+                        <span>Kiev,Ukraine</span>
+                    </div>
+                </div>
+                <div class="nav_icon">
+                    <div class="nav_icon_row"></div>
+                    <div class="nav_icon_row"></div>
+                    <div class="nav_icon_row"></div>
+                </div>
+            </header>
+
+            <nav class="nav_desktop">
+                <ul class="nav_list">
+                    <li class="nav_list_item"><a href='#aboutMe'>About me</a>
+                        <button class="more">&#5125;</button>
+                        <ul class="about_list">
+                            <li class="about_list_item"><a href='#'>My childhood</a></li>
+                            <li class="about_list_item"><a href='#'>I'm at school</a></li>
+                            <li class="about_list_item"><a href='#'>My University life</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_list_item"><a href='#'>My family</a></li>
+                    <li class="nav_list_item"><a href='#'>My friends</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav_mobile">
+                <ul class="nav_list">
+                    <li class="nav_list_item"><a href='#aboutMe'>About me</a>
+                        <button class="more">&#5125;</button>
+                        <ul class="about_list" id="about_list">
+                            <li class="about_list_item"><a href='#'>My childhood</a></li>
+                            <li class="about_list_item"><a href='#'>I'm at school</a></li>
+                            <li class="about_list_item"><a href='#'>My University life</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_list_item"><a href='#'>My family</a></li>
+                    <li class="nav_list_item"><a href='#'>My friends</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section class="content">
+                <section class="about_me" id="aboutMe">
+                    <div class="my_photos slider">
+                        <div class="slider_list">
+                            <div class="slider_track">
+                                <div class="slide slide_1"></div>
+                                <div class="slide slide_2"></div>
+                                <div class="slide slide_3"></div>
+                                <div class="slide slide_4"></div>
+                                <div class="slide slide_5"></div>
+                            </div>
+                        </div>
+                        <div class="slider-navigation">
+                            <button class="prev"><</button>
+                            <button class="prev">></button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
